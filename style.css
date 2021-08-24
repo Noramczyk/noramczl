@@ -42,6 +42,12 @@
         margin-left: 350px; 
     } 
 
+    .tab4 
+    { 
+        display: inline-block; 
+        margin-left: 300px; 
+    }
+
     .tabTitle 
     { 
         display: inline-block; 
