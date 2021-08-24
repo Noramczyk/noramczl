@@ -23,6 +23,12 @@
 	  background-image: linear-gradient(to right, white, #0080FF);
 	}
 
+body
+{
+  
+
+  background-image: linear-gradient(#bdc3c7, #2c3e50);  
+}
 
     .tab 
     { 
@@ -112,7 +118,7 @@
 
 
 * {box-sizing: border-box}
-body {font-family: Times; margin:0}
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
