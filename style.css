@@ -135,6 +135,16 @@ img
 
 }
 
+video
+{
+
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+  vertical-align: middle;
+
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
@@ -270,6 +280,10 @@ img
     border: 2px solid darkorange;
     border-radius: 10px;
     margin: 35px;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+    vertical-align: middle;
 
   }
 
