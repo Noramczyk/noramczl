@@ -327,7 +327,8 @@ video
   }
 
   .navbar 
-  	{
+  {
+
   vertical-align: top;
 	font-weight: bold;
 	text-align: center;
@@ -341,6 +342,10 @@ video
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 	transition: all 0.1s;
+  width: auto ;
+  height: auto ;
+ 
+
 	}
 
 
