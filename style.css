@@ -282,10 +282,10 @@ video
     border: 2px solid darkorange;
     border-radius: 10px;
     margin: 35px;
-    width: auto ;
     max-width: 80% ;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
 
   }
 
