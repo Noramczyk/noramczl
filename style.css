@@ -189,8 +189,7 @@ video
 /* Caption text */
 p.test1 {
   color: #ECF0F1;
-  font-size: 23px;
-  width: 100%;
+  font-size: 20px;
   margin-left: auto;
   margin-right: auto;
 
@@ -291,7 +290,7 @@ p.test1 {
   .borderedEdu 
   {
    
-    padding: 22px;
+    padding: 5px;
     border: 2px solid grey;
     border-radius: 10px;
     margin-left: auto;
@@ -391,9 +390,11 @@ li a:hover {
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
   margin: 0 auto;
+  height: 350px;
+  width: 630px;
+
+  
 
 }
   
@@ -401,15 +402,17 @@ li a:hover {
 with a fixed width and height */
 .slide {
   float: left;
-  height: 510px;
-  width: 728px;
+  height: 350px;
+  width: 630px;
+
+
 }
   
 /* Add animation to the slides */
 .slide-wrapper {
   /* Calculate the total width on the
   basis of number of slides */
-  width: calc(728px * 6);
+  width: calc(630px * 6);
   margin-left: auto;
   margin-right: auto;
   
@@ -454,14 +457,14 @@ for the slideshow */
   }
   
   40% {
-    margin-left: calc(-728px * 1);
+    margin-left: calc(-630px * 1);
   }
   
   60% {
-    margin-left: calc(-728px * 2);
+    margin-left: calc(-630px * 2);
   }
   
   80% {
-    margin-left: calc(-728px * 3);
+    margin-left: calc(-630px * 3);
   }
 }
