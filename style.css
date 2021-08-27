@@ -57,7 +57,7 @@ body
     .tabTitle 
     { 
         display: inline-block; 
-        margin-left: 75px; 
+        margin-left: 10px; 
     } 
 
     .h1 
@@ -190,8 +190,9 @@ video
 p.test1 {
   color: #ECF0F1;
   font-size: 23px;
-  
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -393,6 +394,8 @@ li a:hover {
   height: 510px;
   width: 728px;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
   
 /* Style each of the sides 
