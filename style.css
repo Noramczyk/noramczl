@@ -287,6 +287,18 @@ p.test1 {
 
   }
 
+  .borderedSlide
+  {
+   
+
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+  }
+
   .borderedEdu 
   {
    
