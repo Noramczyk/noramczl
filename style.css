@@ -57,7 +57,7 @@ body
     .tabTitle 
     { 
         display: inline-block; 
-        margin-left: 200px; 
+        margin-left: 75px; 
     } 
 
     .h1 
@@ -187,14 +187,12 @@ video
 }
 
 /* Caption text */
-.text {
-  color: #f01010;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+p.test1 {
+  color: #ECF0F1;
+  font-size: 23px;
+  
   width: 100%;
-  text-align: center;
+
 }
 
 /* Number text (1/3 etc) */
@@ -292,12 +290,12 @@ video
   .borderedEdu 
   {
    
-    padding: 25px;
+    padding: 22px;
     border: 2px solid grey;
     border-radius: 10px;
-    margin: 35px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 
   }
 
@@ -350,7 +348,7 @@ video
   letter-spacing: 0.45em;
   transition: all 0.4s;
   text-align: center;
-  display: inline-block;
+  display: block;
  
 
 
