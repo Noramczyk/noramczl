@@ -189,7 +189,7 @@ video
 /* Caption text */
 p.test1 {
   color: #ECF0F1;
-  font-size: 20px;
+  font-size: 22px;
   margin-left: auto;
   margin-right: auto;
 
@@ -403,7 +403,7 @@ li a:hover {
 #slideshow {
   overflow: hidden;
   margin: 0 auto;
-  height: 350px;
+  height: 320px;
   width: 630px;
 
   
