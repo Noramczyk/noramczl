@@ -65,10 +65,17 @@ body
 	font-size: 40px;
 	}
 
-    .h2 
-    {
+  .h2 
+  {
 	font-size: 30px;
+  color: #ECF0F1;
 	}
+
+  .Spec
+  {
+  font-size: 16px;
+  color: #ECF0F1;
+  }
     .center
     {
 	text-align: center;
