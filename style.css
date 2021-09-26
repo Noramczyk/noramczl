@@ -53,6 +53,16 @@ body
         display: inline-block; 
         margin-left: 380px; 
     }
+    .tab5
+    { 
+        display: inline-block; 
+        margin-left: 590px; 
+    }
+     .tab6
+    { 
+        display: inline-block; 
+        margin-left: 630px; 
+    }
 
     .tabTitle 
     { 
@@ -70,6 +80,12 @@ body
 	font-size: 30px;
   color: #ECF0F1;
 	}
+
+  .h3
+  {
+  font-size: 16px;
+  color: #ECF0F1;
+  }
 
   .Spec
   {
@@ -317,6 +333,7 @@ p.test3 {
     margin-left: auto;
     margin-right: auto;
     height: auto;
+    margin:  auto;
 
   }
 
@@ -448,6 +465,8 @@ with a fixed width and height */
   width: calc(630px * 6);
   margin-left: auto;
   margin-right: auto;
+  height: auto;
+
   
   /* Specify the animation with the
   duration and speed */
