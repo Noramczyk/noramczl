@@ -20,7 +20,7 @@
 	{
 	  height: 200px;
 	  background-color: white; /* For browsers that do not support gradients */
-	  background-image: linear-gradient(to right, white, #0080FF);
+	  background-image: linear-gradient(white, #2c3e50); 
 	}
 
 body
@@ -341,13 +341,30 @@ p.test3 {
   {
    
     padding: 5px;
-    border: 2px solid grey;
+    border: 2px solid limegreen;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    <!-- background-image: linear-gradient(#bdc3c7, #2c3e50); -->
 
   }
+
+  .borderedVideo
+  {
+   
+    padding: 5px;
+    border: 2px solid limegreen;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+
+  }
+
+
+
 
   .borderedTitle 
   {
