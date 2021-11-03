@@ -170,7 +170,7 @@ video
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
+  max-width: auto;
   position: relative;
   margin: auto;
 }
