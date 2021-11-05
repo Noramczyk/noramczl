@@ -211,8 +211,8 @@ video
 
 /* Caption text */
 p.test1 {
-  color: #ECF0F1;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: bold;
   margin-left: auto;
   margin-right: auto;
 
@@ -227,6 +227,14 @@ p.test2 {
 p.test3 {
   color: #ECF0F1;
   font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p.test4 {
+  color: #ECF0F1;
+  font-size: 28px;
   margin-left: auto;
   margin-right: auto;
 
@@ -460,7 +468,7 @@ li a:hover {
   margin: 0 auto;
   height: 320px;
   width: 610px;
-
+ 
   
 
 }
@@ -471,6 +479,7 @@ with a fixed width and height */
   float: left;
   height: 350px;
   width: 610px;
+
 
 
 }
