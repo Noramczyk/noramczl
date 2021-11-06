@@ -478,8 +478,10 @@ li a:hover {
 #slideshow {
   overflow: hidden;
   margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 320px;
-  width: 410px;
+  width: 610px;
  
   
 
@@ -490,7 +492,7 @@ with a fixed width and height */
 .slide {
   float: left;
   height: 320px;
-  width: 410px;
+  width: 610px;
 
 
 
@@ -500,7 +502,7 @@ with a fixed width and height */
 .slide-wrapper {
   /* Calculate the total width on the
   basis of number of slides */
-  width: calc(410px * 6);
+  width: calc(610px * 6);
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -547,14 +549,14 @@ for the slideshow */
   }
   
   40% {
-    margin-left: calc(-410px * 1);
+    margin-left: calc(-610px * 1);
   }
   
   60% {
-    margin-left: calc(-410px * 2);
+    margin-left: calc(-610px * 2);
   }
   
   80% {
-    margin-left: calc(-410px * 3);
+    margin-left: calc(-610px * 3);
   }
 }
