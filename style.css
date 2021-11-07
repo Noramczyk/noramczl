@@ -498,7 +498,8 @@ with a fixed width and height */
   basis of number of slides */
   width: calc(610px * 6);
  
-
+  margin-left: auto;
+  margin-right: auto;
   
   /* Specify the animation with the
   duration and speed */
