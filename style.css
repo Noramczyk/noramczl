@@ -475,8 +475,6 @@ li a:hover {
 #slideshow {
   overflow: hidden;
   margin: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
   height: 320px;
   width: 610px;
 
@@ -488,8 +486,6 @@ with a fixed width and height */
   float: left;
   height: 320px;
   width: 610px;
-  margin-left: auto;
-  margin-right: auto;
   
 
 }
