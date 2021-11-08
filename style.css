@@ -478,7 +478,8 @@ li a:hover {
   height: 320px;
   width: 610px;
   max-width: auto ;
-
+  margin-left: auto;
+  margin-right: auto;
 
 }
   
@@ -488,8 +489,7 @@ with a fixed width and height */
   float: left;
   height: 320px;
   width: 610px;
-  margin: auto;
-  max-width: auto;
+ 
 
 }
   
@@ -498,7 +498,7 @@ with a fixed width and height */
   /* Calculate the total width on the
   basis of number of slides */
   width: calc(610px * 6);
-  max-width: auto ;
+
   
   /* Specify the animation with the
   duration and speed */
