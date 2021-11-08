@@ -477,6 +477,7 @@ li a:hover {
   margin: 0 auto;
   height: 320px;
   width: 610px;
+  margin: auto;
 
 }
   
@@ -486,6 +487,7 @@ with a fixed width and height */
   float: left;
   height: 320px;
   width: 610px;
+  margin: auto;
   
 
 }
