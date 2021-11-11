@@ -153,6 +153,10 @@ body
   display: none
 }
 
+.mySlidesGUI
+{
+  display: none
+}
 
 img 
 {
@@ -183,8 +187,8 @@ video
   margin: auto;
 }
 
-.slideshow-containerX {
-  max-width: 900px;
+.slideshow-containerGUI {
+  max-width: auto;
   position: relative;
   margin: auto;
 }
@@ -298,6 +302,13 @@ p.test4 {
 
 /* Fading animation */
 .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fadeGUI {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -520,17 +531,22 @@ of each of the slides */
   background: #f1f1f1;
 }
   
-.slide:nth-child(4) {
+.slideGUI:nth-child(1) {
   background: #f1f1f1;
 }
 
-.slide:nth-child(5) {
+.slideGUI:nth-child(2) {
   background: #f1f1f1;
 }
 
-.slide:nth-child(6) {
+.slideGUI:nth-child(3) {
   background: #f1f1f1;
 }
+
+.slideGUI:nth-child(4) {
+  background: #f1f1f1;
+}
+
   
 /* Define the animation 
 for the slideshow */
