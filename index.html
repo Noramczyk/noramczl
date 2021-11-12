@@ -480,8 +480,8 @@
 						</div>
 
 
-						<a class="prev" onclick="plusSlidesGui(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlidesGui(1)">&#10095;</a>
+						<a class="prevGUI" onclick="plusSlidesGui(-1)">&#10094;</a>
+						<a class="nextGUI" onclick="plusSlidesGui(1)">&#10095;</a>
 
 						</div>
 						<br>
@@ -509,26 +509,26 @@
 
 						function showSlidesGui(g) {
 						  var j;
-						  var slides = document.getElementsByClassName("mySlidesGUI");
-						  var dots = document.getElementsByClassName("dotGUI");
+						  var slidesGUI = document.getElementsByClassName("mySlidesGUI");
+						  var dotsGUI = document.getElementsByClassName("dotGUI");
 
-						  if (g > slides.length) 
+						  if (g > slidesGUI.length) 
 						  	{slideIndexGui = 1}  
 						  	  
 						  	if (g < 1) 
-						  	{slideIndexGui = slides.length}
+						  	{slideIndexGui = slidesGUI.length}
 
-							  for (j = 0; j < slides.length; j++) 
+							  for (j = 0; j < slidesGUI.length; j++) 
 							  {
-							      slides[j].style.display = "none";  
+							      slidesGUI[j].style.display = "none";  
 							  }
-							  for (j = 0; j < dots.length; j++) 
+							  for (j = 0; j < dotsGUI.length; j++) 
 							  {
-							      dots[j].className = dots[j].className.replace(" active", "");
+							      dotsGUI[j].className = dotsGUI[j].className.replace(" active", "");
 							  }
 
-						  slides[slideIndexGui - 1].style.display = "block";  
-						  dots[slideIndexGui - 1].className += " active";
+						  slidesGUI[slideIndexGui - 1].style.display = "block";  
+						  dotsGUI[slideIndexGui - 1].className += " active";
 						}
 						</script>
 
