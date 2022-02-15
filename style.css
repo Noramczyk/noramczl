@@ -238,11 +238,12 @@ video
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(192,192,192,0.3);
+  /*background-color: rgba(0,0,0,0.8);*/
 }
 
 .prevGUI:hover, .nextGUI:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(192,192,192,0.3);
 }
 
 /* Caption text */
@@ -477,10 +478,11 @@ p.test4 {
   .navbar 
   {
 
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.6em;
   margin-left: auto;
   margin-right: auto;
+  background-color: whitesmoke;
 
 
 	}
@@ -490,11 +492,12 @@ p.test4 {
 {
   list-style-type: none;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 0.45em;
   transition: all 0.4s;
   text-align: center;
   display: block;
+  background-color: whitesmoke;
  
 
 
@@ -522,7 +525,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
 }
 
 
